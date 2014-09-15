@@ -1,0 +1,18 @@
+[user]
+	email = chuongle@qasymphony.com
+	name = Chuong Le
+[diff]
+	tool = gvimdiff
+[alias]
+	co = checkout
+  cm = commit
+  st = status
+  sh = show
+  br = branch
+  ps = push
+  pl = pull
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[push]
+	default = simple
