@@ -17,3 +17,12 @@ if [ $UID -ne 0 ]; then
 	alias update='sudo apt-get update'
 	alias upgrade='sudo apt-get upgrade'
 fi
+
+# aliases for git command
+alias gco='git checkout'
+alias gcm='git commit'
+alias gst='git status'
+alias gps='git push'
+alias gpl='git pull'
+alias glg='git log'
+alias ggp='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
