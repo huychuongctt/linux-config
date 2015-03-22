@@ -1,4 +1,4 @@
 linux-config
 ============
 
-Configuration files for linux
+Some configuration files for linux
